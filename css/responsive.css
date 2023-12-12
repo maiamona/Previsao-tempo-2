@@ -1,0 +1,52 @@
+@media only screen and (max-width:730px){
+    .container{
+        padding: 20px;
+    }
+    
+    .future-forecast{
+       justify-content: start; 
+       align-items: none;
+       overflow-y: scroll;
+    }
+
+    .future-forecast .today .temp{
+        font-size: 23px;
+        padding-top: 15px;
+    }
+
+    .date-container .time{
+        font-size: 50px;
+    }
+
+    .date-container #am-pm{
+        font-size: 20px;
+    }
+
+    .date-container .date{
+        font-size: 20px;  
+    }
+
+    .place-container{
+        margin-top: 15px;
+    }
+
+    .place-container .time-zone{
+         font-size: 20px;
+    }
+
+    .current-info .others{
+        padding: 12px;
+    }
+
+    .current-info .others .weather-item{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:767px){
+    .future-forecast{
+        justify-content: start; 
+        align-items: none;
+        overflow-x: scroll;
+     } 
+}
